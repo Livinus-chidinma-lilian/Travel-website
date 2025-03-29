@@ -4,3 +4,90 @@
     --black-color: #262626;
     --grey-colour: #3333333D;
 }
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: "Gilda display";
+}
+
+.wrapper{
+    width: 375px;
+    margin: 0;
+}
+
+header{
+    width: 35px;
+    height: 473px;
+    top: --3px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+nav .logo{
+    font-family: Gilda Display;
+    font-weight: 400;
+    font-size: 16px;
+    color: #25A59E;
+    border: 0.7px bold #25A59E;
+    padding-top: 16px;
+    padding-right: 20px;
+    padding-bottom: 16px;
+    padding-left: 20px;
+
+}
+nav image{
+    display: flex;
+    align-content: space-between;
+    
+    
+}
+
+.hero-section{
+    width: 375;
+    height: 730;
+    top: 457px;
+    padding-top: 80px;
+    padding-right: 20px;
+    padding-bottom: 80px;
+    padding-left: 20px;
+    gap: 100px;
+    
+
+}
+hero-section .left{
+    
+
+    text-align: center;
+
+    color: black;
+    font-family: Gilda Display;
+    font-size: 40px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
