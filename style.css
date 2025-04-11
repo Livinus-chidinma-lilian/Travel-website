@@ -94,10 +94,7 @@ nav menu{
     width: 24px;
     height: 24px;
 }
-.section-card-info{
-    display: inline-block;
-   
-}
+
 .card-body .icon{
     width: 24px;
     height: 24px;
@@ -114,7 +111,7 @@ nav menu{
     margin-top: -23px;
     margin-left: 25px;
 }
-.selection-title h1{
+.selection-section h1{
     width: 335;
     height: 104;
     border-width: 0.2px;
@@ -125,7 +122,7 @@ nav menu{
     letter-spacing: 0%;
     text-align: center;
 }
-.selection-title p{
+.selection-section .selection-title p{
     font-family: Urbanist;
     font-weight: 500;
     font-size: 16px;
@@ -133,4 +130,34 @@ nav menu{
     letter-spacing: 0%;
     text-align: center;
 
+}
+.list h2{
+    width: 295px;
+    height: 80px;
+    border-width: 0.4px;
+    font-family: Gilda Display;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+.selection-card .g{
+    text-decoration: none;
+    color: cyan;
+    margin-left: 170px;
+    margin-bottom: -0px;
+}
+.selection-card .arrow{
+    margin-left: 250px;
+    margin-top: -45px;
+}
+.left .couple-map{
+    margin-left: -11px;
+
+}
+.travel span{
+    color: #25A59E;
 }
