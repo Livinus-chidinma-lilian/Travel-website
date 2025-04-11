@@ -5,89 +5,132 @@
     --grey-colour: #3333333D;
 }
 
-*,
-*::after,
-*::before{
-    box-sizing: border-box;
-}
-
-body{
-    margin: 0;
-    font-family: "Gilda display";
-}
-
-.wrapper{
-    width: 375px;
-    margin: 0;
-}
-
-header{
-    width: 35px;
-    height: 473px;
-    top: --3px;
-}
 
 nav{
     display: flex;
+    flex-direction: row-reverse;
     justify-content: space-between;
-   
-
-}
-nav .logo{
-    font-family: Gilda Display;
-    font-weight: 400;
-    font-size: 16px;
-    color: #25A59E;
-    border: 0.7px bold #25A59E;
+    width: 375;
+    height: 60;
     padding-top: 16px;
     padding-right: 20px;
     padding-bottom: 16px;
     padding-left: 20px;
 
-}
-nav image{
-    display: flex;
-    align-content: space-between;
-    
-    
-}
-
-.hero-section{
-    width: 375;
-    height: 730;
-    top: 457px;
-    padding-top: 80px;
-    padding-right: 20px;
-    padding-bottom: 80px;
-    padding-left: 20px;
-    gap: 100px;
-    
 
 }
-hero-section .left{
+ .travel-logo{
+    color: #25A59E;
+    width: 52;
+    height: 19;
+    border-width: 0.7px;
+    font-family: Gilda Display;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 10%;
+
+
+ }
+nav menu{
+    width: 24;
+    height: 24;
+    border: 1.5px solid #262626
+    }
+
+    .container {
+        width: 327px;
+        height: 122;
+        font-family: Gilda Display;
+        font-weight: 400;
+        font-size: 52px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        padding-right: 35px;
+
+        }
     
 
+.blurry{
+    /* position: absolute; */
+    width: 400px;
+    position: relative;
+    margin-top: -150px;
+} 
+.ellipse {
+    margin-top: -165px;
+    position: absolute;
+    margin-left: -7px;
+    width: 317px;
+}
+
+.asian-blogger{
+    margin-top: -205px;
+    position: absolute;
+    margin-left: -47px;
+}
+.info h2{
+    width: 335;
+    height: 104;
+    border-width: 0.2px;
+    font-family: Gilda Display;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: 0%;
+}
+.info p{
+    width: 335;
+    height: 48;
+}
+.section-card-info image{
+    width: 311;
+    height: 262;
+
+
+}
+.section-card-info .icon{
+    width: 24px;
+    height: 24px;
+}
+.section-card-info{
+    display: inline-block;
+   
+}
+.card-body .icon{
+    width: 24px;
+    height: 24px;
+}
+.Jawa{
+    margin-top: -23px;
+    margin-left: 25px;
+}
+.Pasuruan{
+    margin-top: -23px;
+    margin-left: 25px;
+}
+.Cappadocia{
+    margin-top: -23px;
+    margin-left: 25px;
+}
+.selection-title h1{
+    width: 335;
+    height: 104;
+    border-width: 0.2px;
+    font-family: Gilda Display;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.selection-title p{
+    font-family: Urbanist;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
     text-align: center;
 
-    color: black;
-    font-family: Gilda Display;
-    font-size: 40px;
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -3,200 +3,197 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Travel Itinerary</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Gilda+Display&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gilda+Display&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="warpper">
-            <nav>
-                <div class="logo">
-                    Travel</div>
-                    <ul>
-                    <img src="Images/menu.png" alt="icon">
-                </ul>
-                </div>   
-            </nav>
-            <!--End of mobile navigation menu-->
-
-            <div class="hero-section">
-                <div class="container">
-                    <h1>Travel around <br>the world</h1>
-                    <div class="images">
-                        <img src="Images/Blurry.png" class="blurry" alt="blue fadded-color">
-                        <img src="Images/Ellipse 168.png"  class="ellipse" alt="orange oval shape">
-                        <img src="Images/Couples taking pictures.png"   class="couple" alt="2 people taking pictures">
-
-                    </div>
-                </div>
+    <nav class="travel-logo">
+        <img src="Images/menu.png"><span>Travel</span>
+    </nav>
+    <section id="intro" class="Invitation-section">
+        <div>
+            <h1 class="container">Travel around <br>the world</h1>
+            <div class="image-container">
+                <img src="Images/Blurry.png" alt="blurry" class="blurry">
+                <img src="Images/Ellipse 168.png" alt="ellipse" class="ellipse">
+                <img src="Images/asian blogger.png" alt="couple" class="asian-blogger">
             </div>
         </div>
-    </header>
+    </section>
+    <section id="destination-section" class="left">
+        <div class="info">
+            <h2>Find your best <br>destination</h2>
+            <p>We have more than 1000+ destinations you can choose.</p>
+        </div>
+        <div class="section-card">
+            <div class="section-card-info">
+                <img src="Images/Mirror Lake.png">
+                <h3>Mirror Lake</h3>
+                <img src="Images/Location Icon.png" class="icon"><p class="Jawa">Jawa Tengah, Indonesia</p>
+            </div>
+        </div>
+    </section>
+    <div class="card border=0">
+        <div class="card-body">
+            <img src="Images/Hot Air Balloon.png">
+            <div class="card-info">
+                <h3 class="card-title">Hot Air Balloon</h3>
+                <img src="Images/Location Icon.png" class="icon"><p class="Cappadocia">Cappadocia. Turkey</p>
+            </div>
+        </div>
+    </div>
+    <div class="card border=0">
+        <div class="card-body">
+            <img src="Images/Oeschinen Lake.png">
+            <div class="card-info">
+                <h3 class="card-title">Oeschinen Lake</h3>
+                <img src="Images/Location Icon.png" class="icon"><p class="Pasuruan">Pasuruan, Indonesia</p>
+            </div>
+        </div>
+    </div>
+    <div class="card border=0">
+        <div class="card-body">
+            <img src="Images/Rhine Falls.png">
+            <div class="card-info">
+                <h3 class="card-title">Rhine Falls</h3>
+                <img src="Images/Location Icon.png" class="icon"><p class="Jawa">Jawa Tengah, Indonesia</p>
+            </div>
+        </div>
+    </div>
     
-    <!-- End of the header section -->
+    <div class="card border=0">
+        <div class="card-body">
+            <img src="Images/Sunter Lake.png">
+            <div class="card-info">
+                <h3 class="card-title">Sunter Lake</h3>
+                <img src="Images/Location Icon.png" class="icon"><p class="Jawa">Jawa Tengah, Indonesia</p>
+            </div>
+        </div>
+    </div>
+    <div class="card border=0">
+        <div class="card-body">
+            <img src="Images/Negeri di atas Awan.png">
+            <div class="card-info">
+                <h3 class="card-title">Negeri di atas Awan</h3>
+                <img src="Images/Location Icon.png" class="icon"><p class="Jawa">Jawa Tengah, Indonesia</p>
+            </div>
+        </div>
+    </div>
+    <!-- End of destination section -->
 
     <div class="wrapper">
-        <section class="destination-section">
-            <div class="left">
-                <h2>Find your best <br>destination</h2>
-                <p>We have more than 1000+ destinations you can choose.</p>
-                <img src="Images/Mirror Lake.png" alt="ice mountain">
-                <h3>Mirror Lake</h3>
-                <img src="Images/Location Icon.png" alt="icon">
-                <p>Jawa Tengah, Indonesia</p>
-                <div class="destination cards">
-                    <img src="Images/Hot Air Balloon.png">
-                    <div class="info">
-                        <h3>Hot Air Balloon</h3>
-                        <img src="Images/Location Icon.png">
-                        <p>Cappadocia. Turkey</p>
+        <section class="selection-section">
+            <div class="selection-title">
+                <h1>Why must <br>choose us</h1>
+                <p>We have been around for over 10 years. Accompany all our customers all over the world. Thousands of our customers always recommend us because of the service we provide. We are always re-elected and now you will choose us as your travel agent!</p>
+
+            </div>
+            
+            
+            <div class="selection-card 3">
+                <ul>
+                    <div class="list">
+                        <h2>Best Guide, <br>Best Experience.</h2>
+                        <p>Your trip will be very memorable with the best guide.</p>
+                        <app-button>
+                            <a href="g">More details</a>
+                            <img src="Images/arrow-right Icon.png">
+                        </app-button>
                     </div>
                 </div>
-                <div class="destination-card">
-                    <img src="Images/Oeschinen Lake.png">
-                    <div class="info">
-                        <h3>Oeschinen Lake</h3>
-                        <img src="Images/Location Icon.png">
-                        <p>Pasuruan, Indonesia</p>
+                <div class="selection-card 5">
+                    <div class="list">
+                        <h2>Always have <br>Special Tickets.</h2>
+                        <p>We always offer special tickets and we give them to all customers</p>
                     </div>
+                    <app-button>
+                        <a href="g">More details</a>
+                        <img src="Images/arrow-right Icon.png">
+                    </app-button> 
                 </div>
-                <div class="destination-cards">
-                    <img src="Images/Rhine Falls.png">
-                    <div class="info">
-                        <h3>Rhine Falls</h3>
-                        <img src="Images/Location Icon.png">
-                        <p>Jawa Tengah, Indonesia</p>
+                <div class="selection-card 4">
+                    <div class="list">
+                        <h2>Always Ready <br>Support 24/7.</h2>
+                        <p>We always make time to ask questions anytime and anywhere./p>
                     </div>
+                    
+                    <app-button>
+                        <a href="g">More details</a>
+                        <img src="Images/arrow-right Icon.png">
+                    </app-button>
                 </div>
-                <div class="destination-cards">
-                    <img src="Images/Sunter Lake.png">
-                    <div class="info">
-                        <h3>Sunter Lake</h3>
-                        <img src="Images/Location Icon.png">
-                        <p>Jawa Tengah, Indonesia</p>
-                    </div>
-                </div>
-                <div class="destination-cards">
-                    <img src="Images/Negeri di atas Awan.png">
-                    <div class="info">
-                        <h3>Negeri di atas Awan</h3>
-                        <img src="Images/Location Icon.png">
-                        <p>Jawa Tengah, Indonesia</p>
-                    </div>
-                </div>
+                </ul>
             </div>
         </section>
-        <!-- End of destination section -->
-
-        <div class="wrapper">
-            <section class="selection-section">
-                <h2>Why must choose us</h2>
-                <p>We have been around for over 10 years. Accompany all our customers all over the world. Thousands of our customers always recommend us because of the service we provide. We are always re-elected and now you will choose us as your travel agent!</p>
-                <div class="selection-card 3">
-                    <ul>
-                        <div class="list">
-                            <h2>Best Guide, <br>Best Experience.</h2>
-                            <p>Your trip will be very memorable with the best guide.</p>
-                        </div>
-                            <app-button>
-                                <a href="g">More details</a>
-                                <img src="Images/arrow-right Icon.png">
-                            </app-button>
-                        </div>
-                            <div class="selection-card 5">
-                                <div class="list">
-                                    <h2>Always have <br>Special Tickets.</h2>
-                                    <p>We always offer special tickets and we give them to all customers</p>
-                                </div>   
-                                    <app-button>
-                                        <a href="g">More details</a>
-                                        <img src="Images/arrow-right Icon.png">
-                                    </app-button>
-                                </div>
-                                <div class="selection-card 4">
-                                    <div class="list">
-                                        <h2>Always Ready <br>Support 24/7.</h2>
-                                        <p>We always make time to ask questions anytime and anywhere./p>
-                                    </div>
-                                    <app-button>
-                                        <a href="g">More details</a>
-                                        <img src="Images/arrow-right Icon.png">
-                                    </app-button>
-                                </div>
-                            </div>
-                    </ul>
-                </div>
-            </section>    
+    </div>
+    <!-- End of selection-section -->
+     <div class="recommendation">
+        <div class="left">
+            <h1>Travel, make the <br>trip memorable</h1>
+            <p>Thousands of our customers always recommend us because of the service we provide. Your trip will be very memorable with the best travel agent, Travel!</p>
+            <img src="Images/Couples looking at the travel map.png">
         </div>
-                <!-- End of selection-section -->
-
-                <div class="recommendation">
-                    <div class="left">
-                        <h1>Travel, make the <br>trip memorable</h1>
-                        <p>Thousands of our customers always recommend us because of the service we provide. Your trip will be very memorable with the best travel agent, Travel!</p>
-                        <img src="Images/Couples looking at the travel map.png">
-                    </div>
-                </div>    
+    </div>
 
                 <!-- End of recommendation section. -->
+
+                <div class="wrapper">
+                    <documentation-section>
+                        <div class="center">
+                            <h1>Watch our entire <br>trip <br>documentation</h1>
+                            <img src="Images/Cloud.png">
+                            <img src="Images/Playbutton.png">
+                        </div>
+                    </documentation-section>    
+                </div>
+                <!-- End of documentation section -->
+                <footer>
                     <div class="wrapper">
-                        <documentation-section>
-                            <div class="center">
-                                <h1>Watch our entire <br>trip <br>documentation</h1>
-                                <img src="Images/Cloud.png">
-                                <img src="Images/Playbutton.png">
-                            </div>
-                        </documentation-section>    
+                        <h1>Get our best offer now!</h1>
                     </div>
-                    <!-- End of documentation section -->
+                    <a href="g" class="btn">Click here!</a>
+                    <h4>Travels</h4>
+                    <p>The best travel agent in the world. Contact us immediatly now!</p>
+                    <div class="social">
+                        <a href="g">
+                            <img src="Images/Path.png">
+                        </a>
+                        <a href="g">
+                            <img src="Images/dove.png">
+                        </a>
+                        <a href="g">
+                            <img src="Images/Play.png">
+                        </a>
+                    </div>
+                    
 
-                    <footer>
-                        <div class="wrapper">
-                            <h1>Get our best offer now!</h1>
+                    <div class="wrapper">
+                        <div class="nav">
+                            <ul>
+                                <li>
+                                    <a href="g">Home</a>
+                                </li>
+                                <li>
+                                    <a href="g">Destinations</a>
+                                </li>
+
+                                <li>
+                                    <a href="g">Guide</a>
+                                </li>
+                                <li>
+                                    <a href="g">Contact Us</a>
+                                </li>
+
+                            </ul>
                         </div>
-                        <a href="g" class="btn">Click here!</a>
-                        <h4>Travels</h4>
-                        <p>The best travel agent in the world. Contact us immediatly now!</p>
-                        <div class="social">
-                            <a href="g">
-                                <img src="Images/Path.png">
-                            </a>
-                            <a href="g">
-                                <img src="Images/dove.png">
-                            </a>
-                            <a href="g">
-                                <img src="Images/Play.png">
-                            </a>
-                        </div>
-                        
+                    </div>
+                </footer>
+                <!-- End of footer section -->
 
-                        <div class="wrapper">
-                            <div class="nav">
-                                <ul>
-                                    <li>
-                                        <a href="g">Home</a>
-                                    </li>
-                                    <li>
-                                        <a href="g">Destinations</a>
-                                    </li>
 
-                                    <li>
-                                        <a href="g">Guide</a>
-                                    </li>
-                                    <li>
-                                        <a href="g">Contact Us</a>
-                                    </li>
-
-                                </ul>
-                            </div>
-                        </div>
-                    </footer>
-                    <!-- End of footer section -->
-
-        <script src="main.js"></script>
 </body>
 </html>
