@@ -10,8 +10,8 @@ nav{
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    width: 375;
-    height: 60;
+    width: 375px;
+    height: 60px;
     padding-top: 16px;
     padding-right: 20px;
     padding-bottom: 16px;
@@ -19,38 +19,42 @@ nav{
 
 
 }
- .travel-logo{
+.logo{
     color: #25A59E;
-    width: 52;
-    height: 19;
+    width: 52px;
+    height: 19px;
     border-width: 0.7px;
     font-family: Gilda Display;
     font-weight: 400;
     font-size: 16px;
     line-height: 100%;
     letter-spacing: 10%;
+    margin-top: -8px;
 
+}
 
- }
-nav menu{
-    width: 24;
-    height: 24;
-    border: 1.5px solid #262626
+.menu{
+    width: 24px;
+    height: 24px;
+    border: 1.5px solid #262626 none;
+    margin-right: 80px;
+    margin-top: -10px;
     }
 
-    .container {
+.container{
         width: 327px;
         height: 122;
         font-family: Gilda Display;
         font-weight: 400;
-        font-size: 52px;
+        font-size: 45px;
         line-height: 100%;
-        letter-spacing: 0%;
         text-align: center;
         padding-right: 35px;
+}
+.travel{
+    color: #25A59E;
 
-        }
-    
+}
 
 .blurry{
     /* position: absolute; */
@@ -148,16 +152,178 @@ nav menu{
     text-decoration: none;
     color: cyan;
     margin-left: 170px;
-    margin-bottom: -0px;
+    margin-bottom: -15px;
 }
 .selection-card .arrow{
-    margin-left: 250px;
+    margin-left: 260px;
     margin-top: -45px;
+
+}
+.selection-card .card-3 .arrow{
+    margin-bottom: 28px;
+}
+.selection-card .card-4 .arrow{
+    margin-bottom: 28px;
+}
+
+.card-3{
+    width: 335;
+    height: 257;
+    gap: 40px;
+    padding-top: 28px;
+    padding-right: 20px;
+    padding-bottom: 32px;
+    padding-left: 20px;
+    box-shadow: 10px 26px 150px 0px #4343641A;
+}
+
+.card-3 h2{
+    width: 295px;
+    height: 80px;
+    border-width: 0.4px;
+    font-family: Gilda Display;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    border: 0.4px solid #262626 none;    
+}
+.card-3 p{
+    width: 295px;
+    height: 46px;
+    font-family: Urbanist;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: 0%;
+    color: #737373;
+
+}
+.card-4{
+    width: 335;
+    height: 257;
+    gap: 40px;
+    padding-top: 28px;
+    padding-right: 20px;
+    padding-bottom: 32px;
+    padding-left: 20px;
+    box-shadow: 10px 26px 150px 0px #4343641A;
+}
+.card-4 h2{
+    width: 295px;
+    height: 80px;
+    border-width: 0.4px;
+    font-family: Gilda Display;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    border: 0.4px solid #262626 none;
+    color: #262626;
+}
+.card-4 p{
+    width: 295px;
+    height: 46px;
+    font-family: Urbanist;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: 0%;
+    color: #737373;
+
+}
+.listtop {
+    width: 300px;
+    height: 4px;
+    background-color: #25A59E;
+ 
+    
+}
+.card-4 .listtop {
+    width: 300px;
+    height: 4px;
+    background-color: #25A59E;
+    margin-left: 0px;
+    margin-top: -15px;
+    margin-left: -18px;
+}
+.card-3 .card-4 .g{
+    width: 84;
+    height: 23;
+    border-width: 0.2px;
+    font-family: Gilda Display;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: 0%;
+    background: #25A59E;
+    border: 0.2px solid #25A59E
 }
 .left .couple-map{
     margin-left: -11px;
 
 }
-.travel span{
+.travel-trip{
     color: #25A59E;
+}
+.card-5{
+    background-color: #25A59E;
+    width: 335;
+    height: 254;
+    gap: 40px;
+    padding-top: 28px;
+    padding-right: 20px;
+    padding-bottom: 32px;
+    padding-left: 20px;
+    color: #FFFFFF;
+
+}
+.card-5 h2{
+    width: 295;
+    height: 80;
+    border-width: 0.4px;
+    font-family: Gilda Display;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 0%;
+}
+.trip{
+    width: 335px;
+    height: 104px;
+    border-width: 0.2px;
+    font-family: Gilda Display;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: 0%;
+}
+.left p{
+    width: 335px;
+    height: 96px;
+    font-family: Urbanist;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #595959;
+    margin-top: -20px;
+
+
+
+}
+.inspire{
+    width: 335;
+    height: 156;
+    border-width: 0.2px;
+    font-family: Gilda Display;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: 0.2px solid #262626 none;
+}
+.player{
+    margin-top: -15px;
 }
