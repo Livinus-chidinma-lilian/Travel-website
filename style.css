@@ -327,3 +327,113 @@ nav{
 .player{
     margin-top: -15px;
 }
+.offer{
+    width: 335px;
+    height: 104px;
+    border-width: 0.2px;
+    font-family: Gilda Display;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 42px;
+    letter-spacing: 0%;
+    border: 0.2px solid #262626 none;
+}
+footer .button{
+    width: 117px;
+    height: 34px;
+    gap: 10px;
+    padding-top: 10px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    background: #25A59E;
+    margin-top: -25px;
+    color: #FFFFFF;
+
+}
+.divder{
+    width: 375px;
+    border: 1px;
+    border: 1px solid #D9D9D9;
+    margin-bottom: 30px;
+
+}
+.contact{
+    width: 52;
+    height: 19;
+    border-width: 0.7px;
+    font-family: Gilda Display;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 10%;
+    border: 0.7px solid #25A59E none;
+    color: #25A59E;
+}
+.agent{
+    width: 305px;
+    height: 35px;
+    font-family: Urbanist;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #595959;
+    margin-top: -10px;
+}
+.socialicons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.path{
+    width: 40;
+    height: 40;
+    border-radius: 100px;
+    box-shadow: 105.45px 50.41px 121.04px 0px #2C1D3C40;
+    margin-right: -40px;
+    margin-left: 40px;
+}
+.dove{
+    width: 40;
+    height: 40;
+    border-radius: 100px;
+    box-shadow: 105.45px 50.41px 121.04px 0px #2C1D3C40;
+    margin-left: -147px;
+
+
+}
+.play{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    box-shadow: 105.45px 50.41px 121.04px 0px #2C1D3C40;
+    margin-left: -167px;
+}
+footer{
+    width: 375px;
+    height: 553px;
+    top: 5355px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border: 0.2px solid #262626;
+   
+
+}
+footer a{
+    text-decoration: none;
+    color: black;
+    margin-left: -35px;
+}
+footer .grid{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    padding-right: 15px;
+    
+}
+footer ul li{
+    margin-left: -55px;
+}
