@@ -417,14 +417,17 @@ footer{
     top: 5355px;
     padding-top: 40px;
     padding-bottom: 40px;
-    border: 0.2px solid #262626;
-   
-
+    border: 0.2px solid #262626 none;
 }
 footer a{
     text-decoration: none;
-    color: black;
+    color: #595959;
     margin-left: -35px;
+    font-family: Urbanist;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
 }
 footer .grid{
     display:flex;
@@ -436,4 +439,20 @@ footer .grid{
 }
 footer ul li{
     margin-left: -55px;
+}
+footer a .home{
+    width: 43px;
+    height: 24px;
+}
+footer a .destinations{
+    width: 89px;
+    height: 24px;
+}
+footer a .guide{
+    width: 43px;
+    height: 24px;
+}
+footer a .contact-us{
+    width: 79px;
+    height: 24px;
 }
