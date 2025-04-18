@@ -5,7 +5,10 @@
     --grey-colour: #3333333D;
 }
 
-
+body{
+    padding-left: 7px;
+    padding-right: 7px;
+}
 nav{
     display: flex;
     flex-direction: row-reverse;
@@ -85,14 +88,14 @@ nav{
     letter-spacing: 0%;
 }
 .info p{
-    width: 335;
-    height: 48;
+  
+   
 }
+
+
 .section-card-info image{
     width: 311;
     height: 262;
-
-
 }
 .section-card-info .icon{
     width: 24px;
@@ -104,16 +107,32 @@ nav{
     height: 24px;
 }
 .Jawa{
-    margin-top: -23px;
+    margin-top: -30px;
     margin-left: 25px;
+    font-family: Urbanist;
+    font-weight: 50px;
+    font-size: 13px;
+    line-height: 32px;
+    letter-spacing: 0%;
+
 }
 .Pasuruan{
-    margin-top: -23px;
+    margin-top: -30px;
     margin-left: 25px;
+    font-family: Urbanist;
+    font-weight: 50px;
+    font-size: 13px;
+    line-height: 32px;
+    letter-spacing: 0%;
 }
 .Cappadocia{
-    margin-top: -23px;
+    margin-top: -30px;
     margin-left: 25px;
+    font-family: Urbanist;
+    font-weight: 50px;
+    font-size: 13px;
+    line-height: 32px;
+    letter-spacing: 0%;
 }
 .selection-section h1{
     width: 335;
@@ -133,6 +152,8 @@ nav{
     line-height: 24px;
     letter-spacing: 0%;
     text-align: center;
+    color: #595959;
+
 
 }
 .list h2{
@@ -151,11 +172,11 @@ nav{
 .selection-card .g{
     text-decoration: none;
     color: cyan;
-    margin-left: 170px;
-    margin-bottom: -15px;
+    margin-left: 162px;
+    margin-bottom: -11px;
 }
 .selection-card .arrow{
-    margin-left: 260px;
+    margin-left: 252px;
     margin-top: -45px;
 
 }
@@ -306,15 +327,13 @@ nav{
     height: 96px;
     font-family: Urbanist;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
     letter-spacing: 0%;
     color: #595959;
     margin-top: -20px;
-
-
-
 }
+
 .inspire{
     width: 335;
     height: 156;
@@ -459,3 +478,4 @@ footer a .contact-us{
     width: 79px;
     height: 24px;
 }
+
