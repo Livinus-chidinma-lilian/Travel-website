@@ -8,6 +8,14 @@
 body{
     padding-left: 7px;
     padding-right: 7px;
+    overflow-x: hidden;
+}
+header{
+    width: 375px;
+    height: 473px;
+    top: -3px;
+    overflow-x: hidden;
+
 }
 nav{
     display: flex;
@@ -27,7 +35,7 @@ nav{
     width: 52px;
     height: 19px;
     border-width: 0.7px solid;
-    font-family: Gilda Display;
+    font-family: "Gilda Display";
     font-weight: 400;
     font-size: 16px;
     line-height: 100%;
@@ -43,11 +51,18 @@ nav{
     margin-right: 100px;
     margin-top: -10px;
     }
+.layout{
+    width: 375px;
+    height: 323px;
+    top: 150px;
+    padding-right: 24px;
+    padding-left: 24px;
 
+}
 .container{
         width: 327px;
-        height: 122;
-        font-family: Gilda Display;
+        height: 122px;
+        font-family: "Gilda Display";
         font-weight: 400;
         font-size: 45px;
         line-height: 100%;
@@ -66,60 +81,195 @@ nav{
     margin-top: -150px;
 } 
 .ellipse {
-    margin-top: -165px;
+    margin-top: -183px;
     position: absolute;
-    margin-left: -7px;
-    width: 317px;
+    margin-left: -177px;
+    width: 347px;
 }
 
 .asian-blogger{
-    margin-top: -205px;
+    margin-top: -208px;
     position: absolute;
-    margin-left: -47px;
+    margin-left: -197px;
+}
+.left{
+    width: 375px;
+    height: 730px;
+    top: 457px;
+    padding-top: 80px;
+    padding-right: 20px;
+    padding-bottom: 80px;
+    padding-left: 20px;
+    gap: 100px;
+
+}
+.destination-info{
+    width: 335px;
+    height: 570px;
+    gap: 28px;
+
+}
+.info{
+    width: 335px;
+    height: 164px;
+    gap: 20px;
+
 }
 .info h2{
-    width: 335;
-    height: 104;
+    width: 335px;
+    height: 104px;
     border-width: 0.2px;
-    font-family: Gilda Display;
+    font-family: "Gilda Display";
     font-weight: 400;
     font-size: 40px;
     line-height: 52px;
     letter-spacing: 0%;
 }
 .info p{
-  
-   
+    width: 335px;
+    height: 48px;
+    font-family: "Urbanist";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #595959;
+    margin-top: -20px;
 }
+.section-card{
+    width: 335px;
+    height: 378px;
+    gap: 24px;
 
-
+}
 .section-card-info image{
-    width: 311;
-    height: 262;
+    width: 311px;
+    height: 262px;
 }
-.section-card-info .icon{
+.mcard-info{
+    width: 311px;
+    height: 60px;
+    padding-right: 4px;
+    padding-left: 4px;
+    gap: 8px;
+
+}
+.mcard-info h3{
+    width: 303px;
+    height: 28px;
+    font-family: "Urbanist";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0%;
+
+}
+.iconp{
+    width: 303px;
+    height: 24px;
+    gap: 8px;
+    opacity: 0.7;
+
+}
+.iconp p{
+    width: 271;
+    height: 24px;
+    font-family: "Urbanist";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #262626;
+    margin-left: 25px;
+}
+.icon{
+    width: 17px;
+    height: 20px;
+    top: 2px;
+    left: 3.5px;
     width: 24px;
     height: 24px;
+}
+.card-info{
+    width: 338.6px;
+    height: 76px;
+    padding-right: 4px;
+    padding-left: 4px;
+    gap: 8px;
+
+}
+.card-title{
+    width: 330.67px;
+    height: 36px;
+    font-family: Urbanist;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0%;
+    color: #262626;
+}
+.card-title-info p{
+    width: 298.67px;
+    height: 32px;font-family: Urbanist;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    color: #262626;
+}
+.card-title-info{
+    width: 330.67px;
+    height: 32;
+    gap: 8px;
+    opacity: 0.7;
+
 }
 
-.card-body .icon{
-    width: 24px;
-    height: 24px;
+.card-body img{
+    width: 338.67px;
+    height: 248px;
+}
+
+.airb-card-border{
+    width: 370.67px;
+    height: 404px;
+    margin-top: -200px;
+    left: 3px;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 36px;
+    padding-left: 16px;
+    gap: 28px;
+    border-width: 1px;
 }
 .Jawa{
     margin-top: -30px;
     margin-left: 25px;
-    font-family: Urbanist;
+    font-family: 'Urbanist';
     font-weight: 50px;
     font-size: 13px;
     line-height: 32px;
     letter-spacing: 0%;
 
 }
+.olake-card-border{
+    width: 370.67px;
+    height: 404;
+    top: 1540px;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 36px;
+    padding-left: 16px;
+    gap: 28px;
+    border-width: 1px;
+    border: 1px solid #F2F2F2
+
+}
+
 .Pasuruan{
     margin-top: -30px;
     margin-left: 25px;
-    font-family: Urbanist;
+    font-family: "Urbanist";
     font-weight: 50px;
     font-size: 13px;
     line-height: 32px;
@@ -128,101 +278,237 @@ nav{
 .Cappadocia{
     margin-top: -30px;
     margin-left: 25px;
-    font-family: Urbanist;
+    font-family: "Urbanist";
     font-weight: 50px;
     font-size: 13px;
     line-height: 32px;
     letter-spacing: 0%;
 }
-.selection-section h1{
-    width: 335;
-    height: 104;
-    border-width: 0.2px;
-    font-family: Gilda Display;
+.rcard-border{
+    width: 370.67px;
+    height: 404px;
+    top: 1958px;
+    left: -2px;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 36px;
+    padding-left: 16px;
+    gap: 28px;
+    border-width: 1px;
+    box-shadow: -55.45px 50.41px 98px 0px #3736640A;
+    box-shadow: 105.45px 50.41px 78.04px 0px #3736640D;
+
+
+}
+.slcard-border{
+    width: 370.67px;
+    height: 404px;
+    top: 2376px;
+    left: 1px;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 36px;
+    padding-left: 16px;
+    gap: 28px;
+    border-width: 1px;
+
+}
+.ncard-border{
+    width: 370.67px;
+    height: 404px;
+    top: 2794px;
+    left: 1px;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 36px;
+    padding-left: 16px;
+    gap: 28px;
+    border-width: 1px;
+    border: 1px solid #F2F2F2;
+    box-shadow: -55.45px 50.41px 98px 0px #3736640A;
+    box-shadow: 105.45px 50.41px 78.04px 0px #3736640D;
+}
+.selection-section{
+    width: 335px;
+    height: 1096px;
+    top: 3263px;
+    left: 17px;
+    gap: 28px;
+
+}
+.selection-title{
+    width: 335px;
+    height: 260px;
+    gap: 12px;
+}
+
+.selection-title h1{
+    width: 335px;
+    height: 104px;
+    border-width: 0.2px none;
+    font-family: "Gilda Display";
     font-weight: 400;
     font-size: 40px;
     line-height: 52px;
     letter-spacing: 0%;
     text-align: center;
 }
-.selection-section .selection-title p{
-    font-family: Urbanist;
+.choose{
+    width: 335px;
+    height: 144px;
+    font-family: "Urbanist";
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0%;
     text-align: center;
     color: #595959;
+}
 
+.list{
+    width: 335px;
+    height: 808px;
+    gap: 20px;
+}
+
+.card-3{
+    width: 335px;
+    height: 257px;
+    gap: 40px;
+    padding-top: 28px;
+    padding-right: 20px;
+    padding-bottom: 32px;
+    padding-left: 20px;
+    box-shadow: 10px 26px 150px 0px #4343641A;
+}
+
+.best{
+    width: 295px;
+    height: 134px;
+    gap: 8px;
 
 }
-.list h2{
+.best h2{
     width: 295px;
     height: 80px;
     border-width: 0.4px;
-    font-family: Gilda Display;
+    font-family: "Gilda Display";
     font-weight: 400;
     font-size: 28px;
     line-height: 40px;
     letter-spacing: 0%;
     text-align: left;
-
+    color: #262626;
+    border: 0.4px solid #262626 none;
 }
-
-.selection-card .g{
-    text-decoration: none;
-    color: cyan;
-    margin-left: 162px;
-    margin-bottom: -11px;
-}
-.selection-card .arrow{
-    margin-left: 252px;
-    margin-top: -45px;
-
-}
-.selection-card .card-3 .arrow{
-    margin-bottom: 28px;
-}
-.selection-card .card-4 .arrow{
-    margin-bottom: 28px;
-}
-
-.card-3{
-    width: 335;
-    height: 257;
-    gap: 40px;
-    padding-top: 28px;
-    padding-right: 20px;
-    padding-bottom: 32px;
-    padding-left: 20px;
-    box-shadow: 10px 26px 150px 0px #4343641A;
-}
-
-.card-3 h2{
-    width: 295px;
-    height: 80px;
-    border-width: 0.4px;
-    font-family: Gilda Display;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 40px;
-    letter-spacing: 0%;
-    border: 0.4px solid #262626 none;    
-}
-.card-3 p{
+.best p{
     width: 295px;
     height: 46px;
-    font-family: Urbanist;
+    font-family: "Urbanist";
     font-weight: 400;
     font-size: 15px;
     line-height: 23px;
     letter-spacing: 0%;
     color: #737373;
+}
+.action{
+    display: flex;
+    flex-direction: row;
+    width: 35%;
+    height: 23px;
+    gap: 12px;
+    margin-left: 198px;
+
+
 
 }
+.action .g{
+    width: 84px;
+    height: 23px;
+    border-width: 0.2px;
+    font-family: "Gilda Display";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: 0%;
+    color: #25A59E;
+    border: 0.2px solid #25A59E none;
+    margin-top: 14px;
+    
+    
+}
+.arrow{
+    width: 16px;
+    height: 16px;
+    color: #25A59E;
+    margin-top: 17px;
+
+}
+
+.card-5{
+    background-color: #25A59E;
+    width: 335px;
+    height: 254px;
+    gap: 40px;
+    padding-top: 28px;
+    padding-right: 20px;
+    padding-bottom: 32px;
+    padding-left: 20px;
+    color: #FFFFFF;
+    box-shadow: 10px 26px 150px 0px #4343641A;
+}
+.content{
+    width: 295px;
+    height: 136px;
+    gap: 8px;
+
+}
+.content h2{
+    width: 295px;
+    height: 80px;
+    border-width: 0.4px;
+    font-family: "Gilda Display";
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    border: 0.4px solid #FFFFFF none;
+}
+.content p{
+    width: 295px;
+    height: 48px;
+    font-family: "Urbanist";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #FFFFFFCC;
+
+}
+.acctic{
+    display: flex;
+    flex-direction: row;
+    width: 35%;
+    height: 18px;
+    gap: 12px;
+    margin-left: 198px;
+
+}
+.acctic .g{
+    width: 84px;
+    height: 18px;
+    border-width: 0.2px;
+    font-family: "Gilda Display";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    border: 0.2px solid #FFFFFF none;
+}
 .card-4{
-    width: 335;
-    height: 257;
+    width: 335px;
+    height: 257px;
     gap: 40px;
     padding-top: 28px;
     padding-right: 20px;
@@ -230,11 +516,18 @@ nav{
     padding-left: 20px;
     box-shadow: 10px 26px 150px 0px #4343641A;
 }
-.card-4 h2{
+
+.support{
+    width: 295px;
+    height: 134px;
+    gap: 8px;
+}
+
+.support h2{
     width: 295px;
     height: 80px;
     border-width: 0.4px;
-    font-family: Gilda Display;
+    font-family: "Gilda Display";
     font-weight: 400;
     font-size: 28px;
     line-height: 40px;
@@ -242,10 +535,10 @@ nav{
     border: 0.4px solid #262626 none;
     color: #262626;
 }
-.card-4 p{
+.support p{
     width: 295px;
     height: 46px;
-    font-family: Urbanist;
+    font-family: "Urbanist";
     font-weight: 400;
     font-size: 15px;
     line-height: 23px;
@@ -254,34 +547,48 @@ nav{
 
 }
 .listtop {
-    width: 300px;
+    width: 335.33px;
     height: 4px;
-    background-color: #25A59E;
- 
+    background-color: #25A59E;    
+}
+.recommendation{
+    width: 335px;
+    height: 487px;
+    top: 4427px;
+    left: 20px;
+    gap: 28px;
+}
+.rec.trip{
+    width: 335px;
+    height: 212px;
+    gap: 12px;
+}
+.trip{
+    width: 335px;
+    height: 104px;
+    border-width: 0.2px;
+    font-family: "Gilda Display";
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: 0%;
+    border: 0.2px solid #262626 none;
+}
+.trip-info{
+    width: 335px;
+    height: 96px;
+    font-family: "Urbanist";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #595959;
     
 }
-.card-4 .listtop {
-    width: 300px;
-    height: 4px;
-    background-color: #25A59E;
-    margin-left: 0px;
-    margin-top: -15px;
-    margin-left: -18px;
-}
-.card-3 .card-4 .g{
-    width: 84;
-    height: 23;
-    border-width: 0.2px;
-    font-family: Gilda Display;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 23px;
-    letter-spacing: 0%;
-    background: #25A59E;
-    border: 0.2px solid #25A59E
-}
-.left .couple-map{
-    margin-left: -11px;
+
+.img-group{
+    width: 335px;
+    height: 247px;
 
 }
 .travel-trip{
@@ -290,55 +597,18 @@ nav{
 .article{
     color: #25A59E;
 }
-.card-5{
-    background-color: #25A59E;
-    width: 335;
-    height: 254;
-    gap: 40px;
-    padding-top: 28px;
-    padding-right: 20px;
-    padding-bottom: 32px;
-    padding-left: 20px;
-    color: #FFFFFF;
+.wrapper{
+    width: 375px;
+    height: 400px;
+    top: 4955px;
 
-}
-.card-5 h2{
-    width: 295;
-    height: 80;
-    border-width: 0.4px;
-    font-family: Gilda Display;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 40px;
-    letter-spacing: 0%;
-}
-.trip{
-    width: 335px;
-    height: 104px;
-    border-width: 0.2px;
-    font-family: Gilda Display;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 52px;
-    letter-spacing: 0%;
-}
-.left p{
-    width: 335px;
-    height: 96px;
-    font-family: Urbanist;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0%;
-    color: #595959;
-    margin-top: -20px;
 }
 
 .inspire{
-    width: 335;
-    height: 156;
+    width: 335px;
+    height: 156px;
     border-width: 0.2px;
-    font-family: Gilda Display;
+    font-family: "Gilda Display";
     font-weight: 400;
     font-size: 40px;
     line-height: 52px;
@@ -347,44 +617,78 @@ nav{
     border: 0.2px solid #262626 none;
 }
 .player{
-    margin-top: -15px;
+    width: 375px;
+    height: 220px;
+    
+}
+.footer{
+    width: 375px;
+    height: 553px;
+    top: 5355px;
+    gap: 42px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border: 0.2px solid #262626 none;
+}
+
+
+.click{
+    width: 375px;
+    height: 174px;
+    gap: 16px;
+    padding-right: 20px;
+    padding-left: 20px;
+
 }
 .offer{
     width: 335px;
     height: 104px;
     border-width: 0.2px;
-    font-family: Gilda Display;
+    font-family: "Gilda Display";
     font-weight: 400;
     font-size: 38px;
     line-height: 42px;
     letter-spacing: 0%;
     border: 0.2px solid #262626 none;
 }
-footer .button{
-    width: 117px;
-    height: 34px;
+.button{
+    width: 147px;
+    height: 54px;
     gap: 10px;
-    padding-top: 10px;
-    padding-right: 2px;
-    padding-bottom: 2px;
-    padding-left: 10px;
+    padding-top: 16px;
+    padding-right: 32px;
+    padding-bottom: 16px;
+    padding-left: 32px;
     background: #25A59E;
-    margin-top: -25px;
     color: #FFFFFF;
+    margin-top: -70px;
 
 }
 .divder{
     width: 375px;
     border: 1px;
     border: 1px solid #D9D9D9;
-    margin-bottom: 30px;
+
+}
+.cagent{
+    width: 375px;
+    height: 149px;
+    gap: 28px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+.footcont{
+    width: 335px;
+    height: 79px;
+    gap: 12px;
 
 }
 .contact{
-    width: 52;
-    height: 19;
+    width: 52px;
+    height: 19px;
     border-width: 0.7px;
-    font-family: Gilda Display;
+    font-family: "Gilda Display";
     font-weight: 400;
     font-size: 16px;
     line-height: 100%;
@@ -393,59 +697,65 @@ footer .button{
     color: #25A59E;
 }
 .agent{
-    width: 305px;
-    height: 35px;
-    font-family: Urbanist;
+    width: 335px;
+    height: 48px;
+    font-family: "Urbanist";
     font-weight: 500;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
     letter-spacing: 0%;
     color: #595959;
-    margin-top: -10px;
 }
 .socialicons{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    margin-top: 40px;
+    align-items: center;
+    margin-left: 105px;
+    width: 335px;
+    height: 42px;
+    gap: 12px;
+
 }
 .path{
-    width: 40;
-    height: 40;
-    border-radius: 100px;
-    box-shadow: 105.45px 50.41px 121.04px 0px #2C1D3C40;
-    margin-right: -40px;
-    margin-left: 40px;
+    width: 91.33px;
+    height: 31.33px;
+    top: 9.33px;
+    left: 9.33px;
+    color: #25A59E;
+    
 }
 .dove{
-    width: 40;
-    height: 40;
-    border-radius: 100px;
-    box-shadow: 105.45px 50.41px 121.04px 0px #2C1D3C40;
-    margin-left: -147px;
-
+    width: 91.36px;
+    height: 36px;
+    top: 12px;
+    left: 10px;
+    color: #25A59E;
+    margin-left: -65px;
+    
 
 }
 .play{
-    width: 40px;
-    height: 40px;
-    border-radius: 100px;
-    box-shadow: 105.45px 50.41px 121.04px 0px #2C1D3C40;
-    margin-left: -167px;
+    width: 91.33px;
+    height: 30px;
+    top: 12px;
+    left: 9px;
+    margin-left: -65px;
+
+
 }
-footer{
+.links{
     width: 375px;
-    height: 553px;
-    top: 5355px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    border: 0.2px solid #262626 none;
+    height: 24px;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-left: 20px;
+
 }
 footer a{
     text-decoration: none;
     color: #595959;
     margin-left: -35px;
-    font-family: Urbanist;
+    font-family: "Urbanist";
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
@@ -479,3 +789,184 @@ footer a .contact-us{
     height: 24px;
 }
 
+/* .video{
+    display: none;
+}
+/* /* media query
+/* /* @media only screen and (max-width: 1200px) and (min-width: 400px){ */
+
+@media only screen and (max-width: 600px){
+    header{
+        padding: 20px;
+        text-align: center;
+    }
+    nav{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        width: 375px;
+        height: 60px;
+        padding-top: 16px;
+        padding-right: 20px;
+        padding-bottom: 16px;
+        padding-left: 20px;
+    
+    
+  }
+}
+@media (min-width: 1024px) {
+    :root {
+        --cyan-color: #25A59E;
+        --white-color: #FFFFFF;
+        --black-color: #262626;
+        --grey-colour: #3333333D;
+    }
+    
+        body{
+            margin: 0px;
+            font-family: Gilda Display;
+            background-color: #FFFFFF;
+            overflow-x: hidden;
+        }
+    
+    header {
+        padding: 40px 70px;
+        text-align: left;
+        color: #25A59E;
+        width: fixed(1200px);
+        height: Hug(33px);
+        padding-top: 30px;
+        padding-left: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .frame{
+        display: block;
+        padding: 10px;
+    }
+    h1{
+        font-family: Gilda Display;
+    }
+    nav{
+        font-size: 24px;
+        font-weight: bold;
+    }
+    main{
+        padding: 20px;
+    }
+    .container{
+        position: relative;
+        text-align: center;
+        padding: 30px;
+        font-size: 105px;
+        margin-top: -40px;
+    }
+    .travel{
+        margin-bottom: 20px;
+        color: #25A59E;
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    .image-container{
+        position: relative;
+        width: 100%;
+        margin: auto;
+    
+    }
+    .blurry{
+        height: 900px;
+        margin-top: -400px;
+        margin-left: 55px;
+        transform: translateX(150px);
+    }
+    .ellipse{
+        margin-top: 111px;
+        position: absolute;
+        margin-left: 1520px;
+        width: 70%;
+        height: 450px;
+        transform: translateX(-212%)
+    }
+    .couple{
+        width: 80%;
+        position: relative;
+        margin-left: 182px;
+        transform: translateY(-92.3%);
+    }
+    section {
+        margin-top: 10px;width: 1440;
+        height: 1270;
+        padding-top: 100px;
+        padding-right: 120px;
+        padding-bottom: 100px;
+        padding-left: 120px;
+        gap: 60px;
+        top: 1070px;
+        
+    }
+    .info h2 {
+        margin-top: -560px;
+        width: 1162;
+        height: 84;
+        border-width: 0.2px;
+        font-family: Gilda Display;
+        font-weight: 400;
+        font-size: 72px;
+        line-height: 84px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+    .info {
+        width: 1200;
+        height: 162;
+    
+    }
+    .info p {
+        width: 599;
+        height: 49;
+        top: 113px;
+        left: 315px;
+        font-family: Urbanist;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+    .content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: stretch;
+        width: 1000px;
+        height: 620px;
+        gap: 5px;
+    
+    }
+    
+    .left{
+        width: 1440;
+        height: 1270;
+        top: 1070px;
+        padding-top: 100px;
+        padding-right: 70px;
+        padding-bottom: 100px;
+        padding-left: 120px;
+        gap: 60px;
+    
+    }
+    .card-body{
+        width: 370.6666564941406;
+        height: 404;
+        padding-top: 16px;
+        padding-right: 16px;
+        padding-bottom: 36px;
+        padding-left: 16px;
+        gap: 28px;
+        border-width: 1px;
+    
+    
+    }
+    
+    
+}
