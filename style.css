@@ -6,15 +6,15 @@
 }
 
 body{
-    padding-left: 7px;
-    padding-right: 7px;
-    overflow-x: hidden;
+    display: block;
+    margin: 8px;
+
 }
 header{
     width: 375px;
     height: 473px;
-    top: -3px;
-    overflow-x: hidden;
+    margin-top: -3px;
+
 
 }
 nav{
@@ -48,13 +48,13 @@ nav{
     width: 24px;
     height: 24px;
     border: 1.5px solid #262626 none;
-    margin-right: 100px;
+    margin-right: 130px;
     margin-top: -10px;
     }
 .layout{
     width: 375px;
     height: 323px;
-    top: 150px;
+    margin-top: 150px;
     padding-right: 24px;
     padding-left: 24px;
 
@@ -64,38 +64,57 @@ nav{
         height: 122px;
         font-family: "Gilda Display";
         font-weight: 400;
-        font-size: 45px;
+        font-size: 35px;
         line-height: 100%;
         text-align: center;
-        padding-right: 35px;
+        padding-right:23px;
 }
 .travel{
     color: #25A59E;
 
 }
+.image-container{
+    width: 432.6px;
+    height: 228px;
+
+}
 
 .blurry{
     /* position: absolute; */
-    width: 400px;
     position: relative;
-    margin-top: -150px;
+    margin-top: -70px;
+    margin-left: -100px;
+    width: 321px;
+    height: 211px;
+    backdrop-filter: blur(160px)
+
+
+
 } 
 .ellipse {
-    margin-top: -183px;
+    margin-top: -0px;
     position: absolute;
-    margin-left: -177px;
-    width: 347px;
+    /* margin-left: -397px; */
+    width: 300px;
+    height: 155px;   
+    margin-top: -16px;
+    margin-left: -320.8px;
+
 }
 
 .asian-blogger{
-    margin-top: -208px;
     position: absolute;
-    margin-left: -197px;
+    width: 350.6px;
+    height: 200px;
+    margin-top: -60px;
+    margin-left: -348.8px;
+
+
 }
 .left{
     width: 375px;
     height: 730px;
-    top: 457px;
+    margin-top: -99px;
     padding-top: 80px;
     padding-right: 20px;
     padding-bottom: 80px;
@@ -106,7 +125,7 @@ nav{
 .destination-info{
     width: 335px;
     height: 570px;
-    gap: 28px;
+    gap: 18px;
 
 }
 .info{
@@ -122,7 +141,7 @@ nav{
     font-family: "Gilda Display";
     font-weight: 400;
     font-size: 40px;
-    line-height: 52px;
+    line-height: 35px;
     letter-spacing: 0%;
 }
 .info p{
@@ -140,6 +159,10 @@ nav{
     width: 335px;
     height: 378px;
     gap: 24px;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 36px;
+    padding-left: 16px;
 
 }
 .section-card-info image{
@@ -342,13 +365,13 @@ nav{
     gap: 12px;
 }
 
-.selection-title h1{
+.selection-title h2{
     width: 335px;
     height: 104px;
     border-width: 0.2px none;
     font-family: "Gilda Display";
     font-weight: 400;
-    font-size: 40px;
+    font-size: 35px;
     line-height: 52px;
     letter-spacing: 0%;
     text-align: center;
@@ -388,13 +411,13 @@ nav{
     gap: 8px;
 
 }
-.best h2{
+.best h3{
     width: 295px;
     height: 80px;
     border-width: 0.4px;
     font-family: "Gilda Display";
     font-weight: 400;
-    font-size: 28px;
+    font-size: 20px;
     line-height: 40px;
     letter-spacing: 0%;
     text-align: left;
@@ -463,23 +486,24 @@ nav{
     gap: 8px;
 
 }
-.content h2{
+.content h3{
     width: 295px;
     height: 80px;
     border-width: 0.4px;
     font-family: "Gilda Display";
     font-weight: 400;
-    font-size: 28px;
+    font-size: 20px;
     line-height: 40px;
     letter-spacing: 0%;
     border: 0.4px solid #FFFFFF none;
+    
 }
 .content p{
     width: 295px;
     height: 48px;
     font-family: "Urbanist";
     font-weight: 400;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 24px;
     letter-spacing: 0%;
     color: #FFFFFFCC;
@@ -523,13 +547,13 @@ nav{
     gap: 8px;
 }
 
-.support h2{
+.support h3{
     width: 295px;
     height: 80px;
     border-width: 0.4px;
     font-family: "Gilda Display";
     font-weight: 400;
-    font-size: 28px;
+    font-size: 20px;
     line-height: 40px;
     letter-spacing: 0%;
     border: 0.4px solid #262626 none;
@@ -569,7 +593,7 @@ nav{
     border-width: 0.2px;
     font-family: "Gilda Display";
     font-weight: 400;
-    font-size: 40px;
+    font-size: 35px;
     line-height: 52px;
     letter-spacing: 0%;
     border: 0.2px solid #262626 none;
@@ -579,7 +603,7 @@ nav{
     height: 96px;
     font-family: "Urbanist";
     font-weight: 500;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 24px;
     letter-spacing: 0%;
     color: #595959;
@@ -610,7 +634,7 @@ nav{
     border-width: 0.2px;
     font-family: "Gilda Display";
     font-weight: 400;
-    font-size: 40px;
+    font-size: 35px;
     line-height: 52px;
     letter-spacing: 0%;
     text-align: center;
@@ -646,7 +670,7 @@ nav{
     border-width: 0.2px;
     font-family: "Gilda Display";
     font-weight: 400;
-    font-size: 38px;
+    font-size: 35px;
     line-height: 42px;
     letter-spacing: 0%;
     border: 0.2px solid #262626 none;
@@ -690,7 +714,7 @@ nav{
     border-width: 0.7px;
     font-family: "Gilda Display";
     font-weight: 400;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 100%;
     letter-spacing: 10%;
     border: 0.7px solid #25A59E none;
@@ -701,7 +725,7 @@ nav{
     height: 48px;
     font-family: "Urbanist";
     font-weight: 500;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 24px;
     letter-spacing: 0%;
     color: #595959;
